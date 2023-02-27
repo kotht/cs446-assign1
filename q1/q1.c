@@ -11,7 +11,7 @@ int main(int argc, char * argv[])
 {
 	// Check that the program was invoked with only one argument
 	if (argc != 2) {
-		printf("Usage: %s <starting_number>\n", argv[0]);
+		printf("Usage: %s <starting number>\n", argv[0]);
 		return 1;
 	}
 
